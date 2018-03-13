@@ -1,5 +1,5 @@
 #language:pt
-@SEVERITY:trivial @ISSUE:YZZ-100 @TMS:9901
+
 Funcionalidade: Login
     Sendo um usuário do SAT
     Posso acessar o sistema
@@ -11,4 +11,4 @@ Cenário: Administrador faz login
         | login | admin |
         | senha | admin |
     Quando faço login
-    Então vejo a tela inicial com a mensagem "oi, Admin!"
+    Então vejo a tela inicial com a mensagem "oi, Lorain!"

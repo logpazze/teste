@@ -1,0 +1,6 @@
+# config/cucumber.yml
+## YAML Template
+---
+default: --format progress -p json 
+html: --format html --out=results/report.html
+json: --format json --out=reports/report.json
